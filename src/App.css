@@ -1,0 +1,34 @@
+.main{
+  margin-top:50px;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.selected-value{
+  font-weight: 600;
+}
+.all-values{
+  font-size: 15px
+}
+
+.rangeslider-horizontal .rangeslider__handle {
+  width: 26px;
+  height: 26px;
+  border-radius: 26px;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.rangeslider-horizontal .rangeslider__handle:after{
+  height: 13px;
+  width: 13px;
+}
+
+.months-selector .rangeslider-horizontal .rangeslider__fill{
+   background-color: blue
+}
+.rangeslider, .rangeslider .rangeslider__fill{
+  box-shadow: none
+}
